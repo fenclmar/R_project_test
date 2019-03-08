@@ -20,7 +20,7 @@
 #' plot(R, type = 'l', main = 'Rainfall', ylab = 'R (mm/h)', xlim =c(400,600))
 
 
-get_CMLrainfall3 <- function (tl, fr, pol = 'V', LonA, LatA, LonB, LatB,
+get_CMLrainfall4 <- function (tl, fr, pol = 'V', LonA, LatA, LonB, LatB,
                              m = .00568, tsh = 5) {
   require(geosphere)
   
