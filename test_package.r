@@ -2,9 +2,12 @@ library(devtools)
 library(roxygen2)        
 
 
-#create("TestR")
+
 package_name <- 'TestPackage'
+create(package_name)
 network_wdir <- getwd()
+#setwd('./TestPackage')
+
 local_wdir <- "E:/Work_temp"
 
 file.copy(from= file.path(network_wdir, package_name), to = local_wdir, 
